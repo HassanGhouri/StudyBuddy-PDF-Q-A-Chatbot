@@ -39,9 +39,6 @@ A: Convenience for users and efficient system operation. Citations: Operating_
 |--------|--------|
 | Eval Loss | **1.182** |
 | Perplexity | **3.26** |
-| Eval Runtime | 11.5 s |
-| Samples / sec | 34.0 |
-| Steps / sec | 4.26 |
 
 The fine-tuned FLAN-T5 model achieved a **perplexity of 3.26**, showing strong comprehension of uploaded PDF text.
 This demonstrates that the RAG pipeline (FAISS + LLM) effectively grounds answers in the retrieved context while maintaining fluent, accurate generation.
